@@ -4,12 +4,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "exports":{
-    "./tailwindConfig": "./tailwind.config.cjs",
-    "./globals": "./globals.css"
+  "exports": {
+    "./globals": "./globals.tsx"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
 }

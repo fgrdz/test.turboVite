@@ -1,11 +1,8 @@
-import './App.css'
-import '@repo/tailwind-config/globals';
-
 function App() {
 
   return (
     <>
-      <div className='bg-blue-500 h-full'>Hello</div>
+      <div className='bg-creuzinho h-full text-titleSize p-8'>Hello</div>
     </>
   )
 }

@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme{
+    /* cores do tema padrao */
+    --color-creuzinho: #87CEEB
+}
